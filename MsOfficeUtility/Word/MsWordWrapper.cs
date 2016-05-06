@@ -214,11 +214,18 @@ namespace MsOfficeUtility.Word
         /// <summary>
         /// 调用Doc打印
         /// </summary>
-        public bool Print()
+        public bool Print(string pages)
         {
             try
             {
-                _doc.PrintOut();
+                if (string.IsNullOrWhiteSpace(pages))
+                {
+                    _doc.PrintOut();
+                }
+                else
+                {
+                    _doc.PrintOut(Range: InteropWord.WdPrintOutRange.wdPrintRangeOfPages, Pages: pages);
+                }
                 return true;
             }
             catch (Exception ex)

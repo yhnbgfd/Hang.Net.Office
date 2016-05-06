@@ -40,6 +40,6 @@ namespace MsOfficeUtility.Word
         /// <summary>
         /// 打印
         /// </summary>
-        bool Print();
+        bool Print(string pages);
     }
 }

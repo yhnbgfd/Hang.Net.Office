@@ -105,7 +105,7 @@ namespace MsOfficeUtility.Word
         /// <summary>
         /// http://www.e-iceblue.com/Tutorials/Spire.Doc/Spire.Doc-Program-Guide/Print-a-Word-Document-Programmatically-in-5-Steps.html
         /// </summary>
-        public bool Print()
+        public bool Print(string pages)
         {
             _doc.PrintDialog = new PrintDialog
             {

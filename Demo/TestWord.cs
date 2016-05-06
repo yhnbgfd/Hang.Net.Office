@@ -39,7 +39,7 @@ namespace Demo
 
                     //w.SaveAs(AppDomain.CurrentDomain.BaseDirectory + @"SpireDoc.docx");
 
-                    w.Print();
+                    w.Print(null);
                 }
             }
             catch (Exception ex)
@@ -77,8 +77,9 @@ namespace Demo
 
                     _logger.Trace("6 SaveAs");
 
+                    w.Print("1,3-4");
                 }
-                MsWordUtility.Print(AppDomain.CurrentDomain.BaseDirectory + @"MicrosoftWord" + extend);
+                //MsWordUtility.Print(AppDomain.CurrentDomain.BaseDirectory + @"MicrosoftWord" + extend);
 
                 _logger.Trace("7 Print");
 
