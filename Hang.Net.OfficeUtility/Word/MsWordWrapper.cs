@@ -61,6 +61,7 @@ namespace Hang.Net.OfficeUtility.Word
             _disposed = true;//让类型知道自己已经被释放
         }
 
+
         /// <summary>
         /// 打开Doc文件
         /// </summary>

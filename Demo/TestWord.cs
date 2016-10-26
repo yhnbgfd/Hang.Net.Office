@@ -27,25 +27,21 @@ namespace Demo
         /// </summary>
         public void TestSpireDoc()
         {
-            try
-            {
-                using (IWord w = new SpireDocWrapper())
-                {
-                    w.Open(AppDomain.CurrentDomain.BaseDirectory + @"Resources\Test.docx");
-
-                    w.PilingWord(_dictData);
-
-                    w.PilingPicture(AppDomain.CurrentDomain.BaseDirectory + @"Resources\IDCard.bmp", "测试用书签1");
-
-                    //w.SaveAs(AppDomain.CurrentDomain.BaseDirectory + @"SpireDoc.docx");
-
-                    w.Print(null);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
+            //try
+            //{
+            //    using (IWord w = new SpireDocWrapper())
+            //    {
+            //        w.Open(AppDomain.CurrentDomain.BaseDirectory + @"Resources\Test.docx");
+            //        w.PilingWord(_dictData);
+            //        w.PilingPicture(AppDomain.CurrentDomain.BaseDirectory + @"Resources\IDCard.bmp", "测试用书签1");
+            //        //w.SaveAs(AppDomain.CurrentDomain.BaseDirectory + @"SpireDoc.docx");
+            //        w.Print(null);
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.ToString());
+            //}
         }
 
         /// <summary>

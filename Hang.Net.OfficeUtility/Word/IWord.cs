@@ -40,6 +40,8 @@ namespace Hang.Net.OfficeUtility.Word
         /// <summary>
         /// 打印
         /// </summary>
+        /// <param name="pages">指定打印某些页</param>
+        /// <returns></returns>
         bool Print(string pages);
     }
 }
