@@ -109,9 +109,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Hang.Net.OfficeUtility\Hang.Net.OfficeUtility.csproj">
+    <ProjectReference Include="..\Hang.Net.OfficeUtility\Hang.Net.Office.csproj">
       <Project>{1ffc4069-9c54-4dbb-8581-e561a798e50d}</Project>
-      <Name>Hang.Net.OfficeUtility</Name>
+      <Name>Hang.Net.Office</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

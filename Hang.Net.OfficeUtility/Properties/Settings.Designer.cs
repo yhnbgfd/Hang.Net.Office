@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Hang.Net.OfficeUtility.Properties {
+namespace Hang.Net.Office.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

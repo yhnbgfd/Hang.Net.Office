@@ -1,7 +1,7 @@
 ﻿using System;
 using InteropWord = Microsoft.Office.Interop.Word;
 
-namespace Hang.Net.OfficeUtility.Word
+namespace Hang.Net.Office.Word
 {
     /// <summary>
     /// Microsoft.Office.Interop.Word公共操作

@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Hang.Net.OfficeUtility")]
+[assembly: AssemblyTitle("Hang.Net.Office")]
 [assembly: AssemblyDescription("Microsoft Office 实用工具")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hang")]
-[assembly: AssemblyProduct("Hang.Net.OfficeUtility")]
+[assembly: AssemblyProduct("Hang.Net.Office")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("Hang")]
 [assembly: AssemblyCulture("")]

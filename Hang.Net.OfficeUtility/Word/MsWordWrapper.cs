@@ -1,11 +1,11 @@
-﻿using Hang.Net.OfficeUtility.Common.Enums;
+﻿using Hang.Net.Office.Common.Enums;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Reflection;
 using InteropWord = Microsoft.Office.Interop.Word;
 
-namespace Hang.Net.OfficeUtility.Word
+namespace Hang.Net.Office.Word
 {
     /// <summary>
     /// Microsoft.Office.Interop.Word封装操作

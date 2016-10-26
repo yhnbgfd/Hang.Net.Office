@@ -1,9 +1,7 @@
-﻿using Hang.Net.OfficeUtility.Word;
+﻿using Hang.Net.Office.Word;
 using NLog;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows;
 
 namespace Demo

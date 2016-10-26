@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Hang.Net.OfficeUtility.Excel
+namespace Hang.Net.Office.Excel
 {
     /// <summary>
     /// 
