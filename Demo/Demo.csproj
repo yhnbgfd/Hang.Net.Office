@@ -109,15 +109,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\IDCard.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Hang.Net.Office\Hang.Net.Office.csproj">
       <Project>{1ffc4069-9c54-4dbb-8581-e561a798e50d}</Project>
       <Name>Hang.Net.Office</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IDCard.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
