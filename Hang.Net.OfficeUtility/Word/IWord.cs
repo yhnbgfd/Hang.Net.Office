@@ -1,8 +1,8 @@
-﻿using MsOfficeUtility.Common.Enums;
+﻿using Hang.Net.OfficeUtility.Common.Enums;
 using System;
 using System.Collections.Generic;
 
-namespace MsOfficeUtility.Word
+namespace Hang.Net.OfficeUtility.Word
 {
     /// <summary>
     /// 

@@ -1,4 +1,4 @@
-﻿using MsOfficeUtility.Word;
+﻿using Hang.Net.OfficeUtility.Word;
 using NLog;
 using System;
 using System.Collections.Generic;

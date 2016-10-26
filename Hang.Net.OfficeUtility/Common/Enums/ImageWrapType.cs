@@ -1,4 +1,4 @@
-﻿namespace MsOfficeUtility.Common.Enums
+﻿namespace Hang.Net.OfficeUtility.Common.Enums
 {
     /// <summary>
     /// 图片位置

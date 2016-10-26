@@ -1,4 +1,4 @@
-﻿using MsOfficeUtility.Common.Enums;
+﻿using Hang.Net.OfficeUtility.Common.Enums;
 using Spire.Doc;
 using Spire.Doc.Documents;
 using System;
@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Drawing.Printing;
 using System.Windows.Forms;
 
-namespace MsOfficeUtility.Word
+namespace Hang.Net.OfficeUtility.Word
 {
     /// <summary>
     /// http://www.e-iceblue.com/Tutorials.html
